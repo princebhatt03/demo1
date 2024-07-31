@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: #fa6cac;
+  position: relative;
+  overflow: hidden;
+}
+#pic {
+  position: absolute;
+  overflow: hidden;
+  height: 40%;
+  width: 100%;
+  /* background-color: aqua; */
+  top: 58%;
+  /* display: flex;
+   align-items: center;
+   justify-content:space-between ; */
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+#pic::-webkit-scrollbar {
+  display: none;
+}
+.ice {
+  height: 100%;
+  width: 15%;
+  /* background-color: blue; */
+  display: inline-block;
+}
+/* #fullscreen{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+/* position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+  } */
+
+.ice img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover; */
+  /* object-position: top; */
+  background-size: contain;
+  /* background-size: cover; */
+  background-position: center;
+}
+.ice:hover img {
+  scale: 0.9;
+  /* background-color: url(https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/v/n/m4613-15369250055b9b9d4d32d45.jpg?w=1200); */
+}
+
+#nav {
+  position: relative;
+  left: 38%;
+  margin: 0%;
+}
+h1 {
+  font-size: 75px;
+  font-family: Canopee;
+  background: linear-gradient(
+    to right,
+    rgb(163, 1, 163),
+    rgb(22, 0, 11),
+    white
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+h2 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+
+  margin: 1%;
+  font-size: 38px;
+  color: rgb(249, 249, 250);
+}
+#page1 img {
+  position: absolute;
+  margin-top: 0;
+  right: 0;
+}
+#page1 #img1 {
+  position: relative;
+  margin-left: 0;
+  margin-top: 0;
+}
+#page1 #img2 {
+  position: relative;
+  margin-left: 0;
+  /* margin-top: 0; */
+}
+#page1 #img3 {
+  position: relative;
+  margin-left: 0;
+  /* margin-top: 0; */
+}
